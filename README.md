@@ -2,9 +2,9 @@
 
 Sample VitePress docs site with Encatch page feedback in the footer (English + Spanish).
 
-[![Encatch it](https://encatch.com/button)](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback)
-
-Install the preconfigured documentation feedback form — helpful votes, suggest edits, and issue reports with logic jumps — in one click.
+| | |
+| --- | :---: |
+| **Don't have the feedback form yet?**<br><br>Click the button to install a ready-made documentation feedback form in your Encatch workspace. It creates the combined form used in this example — helpful votes, suggest edits, and issue reports — with no manual form builder setup. | [![Encatch it](https://encatch.com/button)](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) |
 
 ## Setup
 
@@ -12,7 +12,9 @@ Install the preconfigured documentation feedback form — helpful votes, suggest
 pnpm install
 ```
 
-Copy `.env.example` → `.env` and set your Encatch publishable key and combined form slug / question slugs.
+**Option A — Install the form:** use the button above if you need the feedback form created in Encatch.
+
+**Option B — Wire this site:** copy `.env.example` → `.env` and set your publishable key and form slugs (if you already have the form).
 
 **Publishable key:** [admin.encatch.com](https://admin.encatch.com) → **Settings** → **Publishable key**.
 
