@@ -7,19 +7,9 @@ Good documentation depends on knowing which pages help and which ones confuse re
 
 ## Get the feedback form
 
-<table>
-<tr>
-<td>
-<p><strong>Don't have the feedback form yet?</strong></p>
-<p>Click the button to install a ready-made documentation feedback form in your Encatch workspace. It creates the combined form used in this example — helpful votes, suggest edits, and issue reports — with no manual form builder setup.</p>
-</td>
-<td align="center" width="220">
-<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback">
-<img src="https://encatch.com/button" alt="Encatch it" height="40">
-</a>
-</td>
-</tr>
-</table>
+| About | Install |
+| --- | :---: |
+| **Don't have the feedback form yet?** Click the button to install a ready-made documentation feedback form in your Encatch workspace. It creates the combined form used in this example — helpful votes, suggest edits, and issue reports — with no manual form builder setup. | [![Encatch it](https://encatch.com/button)](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) |
 
 ## What this example adds
 
