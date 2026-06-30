@@ -5,13 +5,11 @@ description: Collect page-level feedback without leaving your documentation site
 
 Good documentation depends on knowing which pages help and which ones confuse readers. Encatch fits naturally at the bottom of a VitePress page: readers stay on your docs site, and you get structured feedback tied to the page they were reading.
 
-## Install the ready template
+## Encatch it
+
+[![Encatch it](https://encatch.com/button)](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback)
 
 Install the preconfigured documentation feedback form from Encatch templates. This creates the default combined form (helpful, suggest edit, raise issue) used in this example.
-
-<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback" target="_blank" rel="noopener noreferrer">
-  <img src="https://encatch.com/button" alt="Install with Encatch" width="200" height="40" />
-</a>
 
 ## What this example adds
 
@@ -25,7 +23,7 @@ Configure the form slug and question slugs via `VITE_ENCATCH_*` in `.env.example
 
 ## Integration overview
 
-1. **`.env`** — publishable key + combined form slug and question slugs (from `.env.example`), or [install the ready template](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) to create the default form automatically.
+1. **`.env`** — publishable key + combined form slug and question slugs (from `.env.example`), or use [**Encatch it**](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) above to create the default form automatically.
 2. **`docs/.vitepress/theme/encatch.ts`** — SDK init, env, and form helpers.
 3. **`docs/.vitepress/theme/DocsPageFeedback.vue`** — footer UI.
 4. **`docs/.vitepress/theme/Layout.vue`** — init Encatch and inject the footer via the `doc-footer-before` slot.
