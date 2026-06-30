@@ -7,9 +7,19 @@ Una buena documentación depende de saber qué páginas ayudan y cuáles confund
 
 ## Obtener el formulario de comentarios
 
-| | |
-| --- | :---: |
-| **¿Aún no tienes el formulario de comentarios?**<br><br>Haz clic en el botón para instalar un formulario de comentarios de documentación listo para usar en tu espacio de Encatch. Crea el formulario combinado de este ejemplo — votos de utilidad, sugerencias de edición e informes de problemas — sin configurarlo manualmente en el editor de formularios. | [![Encatch it](https://encatch.com/button)](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) |
+<table>
+<tr>
+<td>
+<p><strong>¿Aún no tienes el formulario de comentarios?</strong></p>
+<p>Haz clic en el botón para instalar un formulario de comentarios de documentación listo para usar en tu espacio de Encatch. Crea el formulario combinado de este ejemplo — votos de utilidad, sugerencias de edición e informes de problemas — sin configurarlo manualmente en el editor de formularios.</p>
+</td>
+<td align="center" width="220">
+<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback">
+<img src="https://encatch.com/button" alt="Encatch it" height="40">
+</a>
+</td>
+</tr>
+</table>
 
 ## Qué añade este ejemplo
 
