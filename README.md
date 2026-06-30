@@ -8,8 +8,8 @@ Sample VitePress docs site with Encatch page feedback in the footer (English + S
 <p><strong>Don't have the feedback form yet?</strong></p>
 <p>Click the button to install a ready-made documentation feedback form in your Encatch workspace. It creates the combined form used in this example — helpful votes, suggest edits, and issue reports — with no manual form builder setup.</p>
 </td>
-<td align="center" valign="middle">
-<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback"><img src="https://encatch.com/button" alt="Encatch it" height="40"></a>
+<td align="center" valign="middle" width="280">
+<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback"><img src="https://encatch.com/button" alt="Encatch it" width="280" height="56"></a>
 </td>
 </tr>
 </table>
