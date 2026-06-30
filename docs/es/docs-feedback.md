@@ -5,6 +5,14 @@ description: Recopila comentarios por página sin salir de tu sitio de documenta
 
 Una buena documentación depende de saber qué páginas ayudan y cuáles confunden a los lectores. Encatch encaja de forma natural al final de una página de VitePress: los lectores permanecen en tu sitio de docs y obtienes comentarios estructurados vinculados a la página que estaban leyendo.
 
+## Instalar la plantilla lista
+
+Instala el formulario de comentarios de documentación preconfigurado desde las plantillas de Encatch. Esto crea el formulario combinado predeterminado (útil, sugerir edición, reportar problema) utilizado en este ejemplo.
+
+<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback" target="_blank" rel="noopener noreferrer">
+  <img src="https://encatch.com/button" alt="Instalar con Encatch" width="200" height="40" />
+</a>
+
 ## Qué añade este ejemplo
 
 Cada página de documentación en este repositorio incluye un pie de página con:
@@ -17,7 +25,7 @@ Configura el slug del formulario y los slugs de las preguntas mediante `VITE_ENC
 
 ## Resumen de la integración
 
-1. **`.env`** — clave publicable y slugs de formularios (desde `.env.example`).
+1. **`.env`** — clave publicable y slugs del formulario combinado (desde `.env.example`), o [instala la plantilla lista](https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback) para crear el formulario predeterminado automáticamente.
 2. **`docs/.vitepress/theme/encatch.ts`** — inicialización del SDK, variables de entorno y helpers de formularios.
 3. **`docs/.vitepress/theme/DocsPageFeedback.vue`** — interfaz del pie de página.
 4. **`docs/.vitepress/theme/Layout.vue`** — inicializa Encatch e inyecta el pie de página mediante el slot `doc-footer-before`.

@@ -10,6 +10,12 @@ pnpm install
 
 Copy `.env.example` → `.env` and set your Encatch publishable key and combined form slug / question slugs.
 
+Or install the ready template — it creates the default combined documentation feedback form configured for this example:
+
+<a href="https://templates.encatch.com/templates/preview/documentation-frameworks/docs-feedback" target="_blank" rel="noopener noreferrer">
+  <img src="https://encatch.com/button" alt="Install with Encatch" width="200" height="40" />
+</a>
+
 **Publishable key:** [admin.encatch.com](https://admin.encatch.com) → **Settings** → **Publishable key**.
 
 ## Run
