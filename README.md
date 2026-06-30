@@ -8,7 +8,7 @@ Sample VitePress docs site with Encatch page feedback in the footer (English + S
 pnpm install
 ```
 
-Copy `.env.example` → `.env` and set your Encatch publishable key and form slugs.
+Copy `.env.example` → `.env` and set your Encatch publishable key and combined form slug / question slugs.
 
 **Publishable key:** [admin.encatch.com](https://admin.encatch.com) → **Settings** → **Publishable key**.
 
@@ -34,7 +34,7 @@ pnpm preview
 
 This example uses the same pattern as the Fumadocs examples:
 
-1. **`.env`** — publishable key + form slugs (from `.env.example`).
+1. **`.env`** — publishable key + combined form slug and question slugs (from `.env.example`).
 2. **`docs/.vitepress/theme/encatch.ts`** — SDK init, env, and form helpers.
 3. **`docs/.vitepress/theme/DocsPageFeedback.vue`** — footer UI.
 4. **`docs/.vitepress/theme/Layout.vue`** — init Encatch and inject the footer via the `doc-footer-before` slot.
@@ -45,8 +45,9 @@ This example uses the same pattern as the Fumadocs examples:
 All Encatch variables use the `VITE_` prefix (Vite convention):
 
 - `VITE_ENCATCH_SDK_PUBLISHABLE_KEY`
-- `VITE_ENCATCH_HELPFUL_*` — helpful vote form
-- `VITE_ENCATCH_SUGGEST_AN_EDIT_*` — suggest edits form
-- `VITE_ENCATCH_RAISE_ISSUE_*` — raise issue form
+- `VITE_ENCATCH_DOCUMENTATION_FEEDBACK_FORM_SLUG` — combined feedback form
+- `VITE_ENCATCH_FEEDBACK_TYPE_QUESTION_SLUG` — logic-jump routing question
+- `VITE_ENCATCH_PAGE_URL_QUESTION_SLUG` — page URL prefill
+- `VITE_ENCATCH_HELPFUL_CHOICE_QUESTION_SLUG` — yes/no prefill for helpful flow
 
 See `.env.example` for the full list.
