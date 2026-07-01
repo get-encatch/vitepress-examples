@@ -12,11 +12,6 @@ const sharedSidebar = [
   { text: 'Docs feedback', link: '/docs-feedback' },
 ];
 
-const esSidebar = [
-  { text: 'Acerca de Encatch', link: '/es/' },
-  { text: 'Comentarios en docs', link: '/es/docs-feedback' },
-];
-
 export default defineConfig({
   title: 'Encatch VitePress',
   description: 'VitePress docs example with Encatch page feedback in the footer.',
@@ -61,37 +56,6 @@ export default defineConfig({
         docFooter: {
           prev: 'Previous page',
           next: 'Next page',
-        },
-      },
-    },
-    es: {
-      label: 'Español',
-      lang: 'es',
-      link: '/es/',
-      title: 'Encatch VitePress',
-      description:
-        'Ejemplo de documentación VitePress con comentarios Encatch en el pie de página.',
-      themeConfig: {
-        socialLinks: [
-          {
-            icon: 'github',
-            link: 'https://github.com/get-encatch/vitepress-examples',
-          },
-        ],
-        editLink: {
-          pattern:
-            'https://github.com/get-encatch/vitepress-examples/edit/main/docs/:path',
-        },
-        nav: [
-          { text: 'Acerca de Encatch', link: '/es/' },
-          { text: 'Comentarios en docs', link: '/es/docs-feedback' },
-        ],
-        sidebar: {
-          '/es/': esSidebar,
-        },
-        docFooter: {
-          prev: 'Página anterior',
-          next: 'Página siguiente',
         },
       },
     },
