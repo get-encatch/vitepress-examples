@@ -1,6 +1,6 @@
 # VitePress example with Encatch docs feedback
 
-Sample VitePress docs site with Encatch page feedback in the footer (English + Spanish).
+Sample VitePress docs site with Encatch page feedback in the footer.
 
 <table>
 <tr>
@@ -32,10 +32,7 @@ pnpm install
 pnpm dev
 ```
 
-| Locale | URL |
-|--------|-----|
-| English | http://localhost:3000/ |
-| Spanish | http://localhost:3000/es/ |
+Open http://localhost:3000/
 
 ## Build
 

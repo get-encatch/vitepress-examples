@@ -17,26 +17,14 @@ const pageUrl = computed(() => route.path);
 const locale = computed(() => lang.value);
 
 const translations = {
-  en: {
-    helpfulQuestion: 'Was this page helpful?',
-    yes: 'Yes',
-    no: 'No',
-    suggestEdits: 'Suggest edits',
-    raiseIssue: 'Raise issue',
-  },
-  es: {
-    helpfulQuestion: '¿Te resultó útil esta página?',
-    yes: 'Sí',
-    no: 'No',
-    suggestEdits: 'Sugerir ediciones',
-    raiseIssue: 'Reportar un problema',
-  },
+  helpfulQuestion: 'Was this page helpful?',
+  yes: 'Yes',
+  no: 'No',
+  suggestEdits: 'Suggest edits',
+  raiseIssue: 'Raise issue',
 } as const;
 
-const t = computed(() => {
-  const key = locale.value.startsWith('es') ? 'es' : 'en';
-  return translations[key];
-});
+const t = computed(() => translations);
 
 function handleVote(next: 'yes' | 'no') {
   const newVote = vote.value === next ? null : next;
