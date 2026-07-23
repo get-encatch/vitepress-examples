@@ -10,7 +10,7 @@
     "test:visual:ui": "playwright test --ui"
   },
   "dependencies": {
-    "@encatch/web-sdk": "^1.4.0",
+    "@encatch/web-sdk": "^1.5.0",
     "vitepress": "^1.6.3",
     "vue": "^3.5.13"
   },
