@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@encatch/web-sdk':
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.5.2
+        version: 1.5.2
       vitepress:
         specifier: ^1.6.3
         version: 1.6.4(@algolia/client-search@5.53.0)(postcss@8.5.15)(search-insights@2.17.3)(typescript@6.0.3)
@@ -143,8 +143,8 @@ packages:
       search-insights:
         optional: true
 
-  '@encatch/web-sdk@1.4.0':
-    resolution: {integrity: sha512-+ZBPJ0D12CJE6xKkFc77/31KilSq9TMEQxKwWv8b6FBIfYDTzVc1A/44Q7KIbyu4timLzC8v1tlROzVQF/jQpw==}
+  '@encatch/web-sdk@1.5.2':
+    resolution: {integrity: sha512-YBn/jYaRXh6wRpSXKJmug/78/NzLipT8vFJAWhuo17vFtIze25H5q3sG6Gdt+GRKof7UNEDHRCxxn1jrRYCraw==}
     engines: {node: '>=18'}
 
   '@esbuild/aix-ppc64@0.21.5':
@@ -1002,7 +1002,7 @@ snapshots:
     transitivePeerDependencies:
       - '@algolia/client-search'
 
-  '@encatch/web-sdk@1.4.0': {}
+  '@encatch/web-sdk@1.5.2': {}
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
